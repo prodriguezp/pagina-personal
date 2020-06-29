@@ -42,6 +42,7 @@ header h4 {
     top: 5%;
     text-align: center;
     /* width: 30%; */
+    font-family: 'Source Code Pro', monospace;
 }
 
 header div {
@@ -54,7 +55,7 @@ header div {
 
 /** MENU SUPERIOR **/
 .menu_superior {
-    background-color: grey;
+    background-color: rgb(32, 36, 32);
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -76,13 +77,15 @@ header div {
 .menu_superior>div:hover {
     border-left: rgb(35, 71, 94) 2px solid;
     font-style: oblique;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
 .menu_superior>div>a {
     display: block;
-    color: wheat;
+    color: lightgreen;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 /** QUIEN  SOY**/
