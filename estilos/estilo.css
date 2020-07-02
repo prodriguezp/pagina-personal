@@ -1,4 +1,4 @@
-.container {}
+
 
 body {
     background-color: #e3dbcc;
@@ -13,6 +13,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.container-fluid{
+  padding: 0px;
+}
 
 /** HEADER - CABECERA**/
 header {
@@ -110,20 +113,24 @@ header div {
 }
 
 .quien-soy>div {
-    width: 53%;
+    width: 40%;
     align-self: center;
     font-size: 18px;
     text-align: justify;
 }
 
 
-.quien-soy>img {
-    width: 40%;
-    align-self: end;
+.quien-soy> .carousel {
+    width: 50%;
+    height: 300px;
+    align-self: center;
     -webkit-box-shadow: 15px 15px 50px -10px rgba(0, 0, 0, 1);
     -moz-box-shadow: 15px 15px 50px -10px rgba(0, 0, 0, 1);
     box-shadow: 15px 15px 50px -10px rgba(0, 0, 0, 1);
 
+}
+.carousel img{
+  height: 300px;
 }
 
 h2 {
@@ -163,11 +170,11 @@ h2 {
     transform: scale(1.1);
 }
 
-.logos>.card {
+.card-logo {
     width: 15%;
 }
 
-.card_me>h3 {
+.card-logo>h3 {
     padding: 30px;
     border-top: 2px solid lightgreen;
     border-bottom: 2px solid lightgreen;
@@ -175,7 +182,7 @@ h2 {
 
 }
 
-.card_me>div {
+.card-logo>div {
     padding: 5px;
     text-align: justify;
 }
