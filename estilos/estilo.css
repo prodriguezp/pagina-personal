@@ -144,7 +144,6 @@ h2 {
 
 /**  QUE HAGO  **/
 .que-hago {
-    padding: 50px;
     background: #e2e9f0;
 }
 
@@ -207,6 +206,17 @@ Bootstrap 4 breakpoints
 Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
+@media only screen and (max-width: 575px) {
+  .quien-soy, .logos{
+    flex-direction: column;
+  }
+
+
+  .logos > .card-logo {
+    width: 80%;
+    margin-top: 45px;
+    align-self: center;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
