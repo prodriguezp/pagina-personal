@@ -270,6 +270,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
 
 
+
+
   .quien-soy > div:nth-child(1){
     width: auto;
     margin-bottom: 100px;
@@ -285,11 +287,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .quien-soy, .logos{
     flex-direction: row;
   }
+  .logos > .card-logo {
+    width: 30%;
+    margin-top: 45px;
+    align-self: center;
+  }
 
   .quien-soy > div:nth-child(1){
     width: 40%;
   }
   .quien-soy > .carousel{
     width: 50%;
+    display: none;
   }
 }
