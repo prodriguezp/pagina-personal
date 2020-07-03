@@ -211,24 +211,34 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .quien-soy{
+  .quien-soy, .logos{
     flex-direction: column;
   }
 
+  .logos > .card-logo {
+    width: 55%;
+    margin-top: 45px;
+    align-self: center;
+  }
   .quien-soy > div:nth-child(1){
     width: auto;
     margin-bottom: 100px;
   }
   .quien-soy > .carousel{
-    height: auto;
-    width: 70%;
+    width: 100%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-  .quien-soy{
+  .quien-soy, .logos{
     flex-direction: column;
+  }
+
+  .logos > .card-logo {
+    width: 55%;
+    margin-top: 45px;
+    align-self: center;
   }
 
   .quien-soy > div:nth-child(1){
@@ -236,30 +246,43 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     margin-bottom: 100px;
   }
   .quien-soy > .carousel{
-    width: 70%;
+    width: 100%;
   }
 
 }
 
 /* Large devices (desktops, 992px and up) */
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
+/* MIRAR ESTAS MEDIDAS*/
 @media (min-width: 992px) {
   .quien-soy{
     flex-direction: column;
   }
+  .logos{
+    flex-direction: row;
+  }
+
 
   .quien-soy > div:nth-child(1){
     width: auto;
     margin-bottom: 100px;
   }
   .quien-soy > .carousel{
-    width: 70%;
+    width: 100%;
   }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .quien-soy{
+  .quien-soy, .logos{
     flex-direction: row;
   }
 
